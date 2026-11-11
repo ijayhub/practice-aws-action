@@ -48,7 +48,7 @@ jobs:
 
       - name: Deploy to S3
         run: |
-          aws s3 sync . "s3://hello-266735847504-us-east-1-an" \
+          aws s3 sync . "s3://practice-action-aws" \
             --delete \
             --exclude ".git/*" \
             --exclude ".github/*" \
